@@ -128,10 +128,10 @@ header p {
     box-shadow: var(--box-shadow);
 }
 
-
+/*Create section for eduction, seems to be no CSS*/
 
 #education h2 {
-    font-size: 32px;  /* Heading font size in pixels */
+    font-size: 32px;  
     text-align: center;
     margin-bottom: 20px;
     color: #333;
@@ -154,7 +154,7 @@ header p {
 
 .edu-list li strong {
     display: block;
-    font-size: 20px;  /* Strong text font size in pixels */
+    font-size: 20px;  
     color: #2c3e50;
 }
 
@@ -185,12 +185,12 @@ header p {
 
 .references-list {
     display: flex;
-    justify-content: center; /* Center the items horizontally */
-    align-items: flex-start; /* Align items to the top */
+    justify-content: center; 
+    align-items: flex-start; 
     padding: 0;
     margin: 0;
     list-style: none;
-    gap: 20px; /* Adds space between the two items */
+    gap: 20px; 
 }
 
 .reference-item {
@@ -198,7 +198,7 @@ header p {
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 40%; /* Adjust width to fit two items side by side */
+    width: 40%; 
     box-sizing: border-box;
 }
 
@@ -206,12 +206,14 @@ header p {
     margin-top: 0;
 }
 
+/*For Smaller screens
+Necessary?*/
 @media (max-width: 768px) {
     .references-list {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        gap: 10px; /* Adjust space between items when stacked */
+        flex-direction: column; 
+        gap: 10px; 
     }
     .reference-item {
-        width: 100%; /* Make each reference item full width when stacked */
+        width: 100%; 
     }
 }
